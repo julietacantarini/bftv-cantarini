@@ -569,6 +569,13 @@ section form div input{
     padding: 0px 15px 20px 15px;
 }
 
+.evento-literario div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /*!---------FOOTER INDEX------------*/
 
@@ -603,10 +610,40 @@ section form div input{
 
 /*!---------MEDIA QUERY------------*/
 
+@media screen and (max-width: 1600px){
+    .grid-ts img{
+        width: 400px;
+        height: 200px;
+    }
+    
+    .grid-ts{
+        width: 60%;
+        margin: 10px;
+        grid-template-columns: 400px 400px 400px;
+        grid-auto-rows: 200px 200px 200px;
+        gap: 10px;
+    }
+}
+
 @media screen and (max-width: 1500px){
     .nuestra-cafeteria-div p{
         font-size: 25px;
         padding-left: 10px;
+    }    
+}
+
+@media screen and (max-width: 1250px){
+    .grid-ts img{
+        width: 300px;
+        height: 100px;
+    }
+    
+    .grid-ts{
+        width: 40%;
+        margin: 0px;
+        grid-template-columns: 300px 300px 300px;
+        grid-auto-rows: 100px 100px 100px;
+        gap: 5px;
     }
 }
 
@@ -639,6 +676,19 @@ section form div input{
 
     .nuestra-cafeteria-div p{
         font-size: 10px;
+    }
+
+    .grid-ts img{
+        width: 250px;
+        height: 50px;
+    }
+    
+    .grid-ts{
+        width: 40%;
+        margin: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 

@@ -1,0 +1,433 @@
+@media screen and (max-width: 1600px){
+    .evento-musical{
+        .grid-ts{
+            width: 80%;
+            margin: 50px;
+            padding: 10px;
+            gap: 10px;
+        }
+            img{
+                width: 150px;
+                height: 80px; 
+            }
+    }
+}
+
+@media screen and (max-width: 1500px){
+    .container-fluid{
+        .row{
+            .col-lg-9{
+                p{
+                    font-size: 25px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1400px){
+    .evento-musical{
+        .grid-ts{
+            width: 80%;
+            margin: 20px;
+            gap:8px
+        }
+            img{
+            width: 200px;
+            height: 50px;
+            }
+    }
+}
+
+@media screen and (max-width: 1250px){
+    .evento-musical{
+        .grid-ts{
+            width: 80%;
+            margin: 0px;
+            margin-top: 80px;
+            margin-bottom: 50px;
+            gap: 5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+            img{
+                width: 200px;
+                height: 50px;
+            }
+        p{
+            font-size: 15px;
+        }
+    }
+    .evento-literario{
+        h2{
+            font-size: 15px;
+        }
+        div{
+            p{
+                font-size: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1200px){
+    .container-fluid{
+        .row{
+            .col-lg-3{
+                img{
+                    width: 680px;
+                    height: 700px;
+                }
+            }
+            .col-lg-9{
+                p{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 900px){
+    .container-fluid{
+        .row{
+            .col-lg-3{
+                img{
+                    width: 480px;
+                    height: 500px;
+                }
+            }
+            .col-lg-9{
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:850px){
+    header{
+        flex-direction: column;
+        nav{
+            ul{
+                flex-direction: column;
+                li{
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:850px){
+    .evento-literario{
+        div{
+            img{
+                width: 500px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    main{
+        .hero{
+            div{
+                img{
+                    width: 300px;
+                    height: 400px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .compra-por-mayor{
+            div{
+                img{
+                    width: 300px;
+                    height: 400px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .venta-de-vinilos{
+            div{
+                img{
+                    width: 300px;
+                    height: 400px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .cafeteria{
+            div{
+                img{
+                    width: 300px;
+                    height: 400px;
+                }
+                h3{
+                    font-size: 20px;
+                    margin-left: 10px;
+                }
+            }
+        }
+        .sugerencias{
+            .sugerencias-div{
+                .card{
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        .mas-leidos{
+            .mas-leidos-div{
+                .card{
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        .en-oferta{
+            .en-oferta-div{
+                .card{
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+        .vinilos{
+            .vinilos-div{
+                .card{
+                    flex-direction: column;
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .container-fluid{
+        .row{
+            .col-lg-3{
+                img{
+                    width: 280px;
+                    height: 300px;
+                }
+            }
+            .col-lg-9{
+                p{
+                    font-size: 10px;
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .giftcards{
+        div{
+            img{
+                width: 350px;
+                height: 50px;
+                margin: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    header{
+        h1{
+            font-size: 30px;
+        }
+    }
+    footer{
+        .redes-sociales{
+            flex-direction: column;
+            align-items: center;
+        }
+        .newsletter{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .sugerencias{
+        h2{
+            font-size: 15px;
+        }
+        .sugerencias-div{
+            .card{
+                img{
+                    width: 200px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+    .mas-leidos{
+        h2{
+            font-size: 15px;
+        }
+        .mas-leidos-div{
+            .card{
+                img{
+                    width: 200px;
+                    height: 350px;
+                }
+            }
+        }
+    }
+    .en-oferta{
+        h2{
+            font-size: 15px;
+        }
+        .en-oferta-div{
+            .card{
+                img{
+                    width: 250px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+    .vinilos{
+        h2{
+            font-size: 15px;
+        }
+        .vinilos-div{
+            .card{
+                img{
+                    width: 250px;
+                    height: 300px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .container-fluid{
+        .row{
+            .col-lg-3{
+                img{
+                    width: 130px;
+                    height: 150px;
+                }
+            }
+            .col-lg-9{
+                p{
+                    font-size: 7px;
+                    padding-left: 5px;
+                }
+            }
+            .col-lg-12{
+                h2{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .giftcards{
+        div{
+            img{
+                width: 300px;
+                height: 100px; 
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 550px){
+    .evento-literario{
+        div{
+            img{
+                width: 400px;
+                height: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .hero{
+        div{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+    .compra-por-mayor{
+        div{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+    .venta-de-vinilos{
+        div{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+    .cafeteria{
+        div{
+            img{
+                width: 200px;
+                height: 300px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .evento-literario{
+        div{
+            img{
+                width: 300px;
+                height: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 400px){
+    .giftcards{
+        div{
+            img{
+                width: 250px;
+                height: 50px;
+            }
+        }
+    }
+}

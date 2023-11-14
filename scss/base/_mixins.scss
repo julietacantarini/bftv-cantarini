@@ -1,0 +1,9 @@
+@mixin flex ($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $align;
+}
+
+.hero div{
+     @include flex(flex, space-around, center);
+}

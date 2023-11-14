@@ -1,0 +1,367 @@
+/*!----------------INDEX----------------*/
+    .presentacion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3{
+            color: white;
+            font-size: 30px;
+            font-family: 'Vollkorn', serif;
+            font-weight: 100;
+            text-align: center;
+            background-color: rgb(179, 138, 115);
+            width: 100vw;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
+        }
+        img{
+            width: 20%;
+        }
+    }
+    .hero{
+
+        h2{
+            font-size: 25px;
+            color: white;
+            padding: 10px;
+            background-color: $color-terciario;
+            text-align: center
+        }
+
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width: 500px;
+                height: 750px;
+                margin-bottom: 80px;
+                margin-top: 50px;
+            }
+            h3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 40px;
+                a{
+                    color: white;
+                    background-color: nth (colores, 3);
+                    text-decoration: none;
+                    font-family: 'Vollkorn', serif;
+                    padding: 10px 5px 10px 5px;
+                    &:hover{
+                        background-color: nth (colores, 2);
+                        color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+    .compra-por-mayor{
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width: 500px;
+                height: 750px;
+                margin-bottom: 80px;
+                margin-top: 50px;
+            }
+            h3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 40px;
+                a{
+                    color: white;
+                    background-color: rgba(167, 72, 72, 0.925);
+                    text-decoration: none;
+                    font-family: 'Vollkorn', serif;
+                    padding: 10px 5px 10px 5px;
+                    &:hover{
+                        background-color: black;
+                        color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+    .venta-de-vinilos{
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            }
+            img{
+                width: 500px;
+                height: 750px;
+                margin-bottom: 80px;
+                margin-top: 50px;
+            }
+            h3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 40px;
+                a{
+                    color: white;
+                    background-color: rgba(167, 72, 72, 0.925);
+                    text-decoration: none;
+                    font-family: 'Vollkorn', serif;
+                    padding: 10px 5px 10px 5px;
+                    &:hover{
+                        background-color: black;
+                        color: rgba(167, 72, 72, 0.925);
+                }
+            }
+        }
+    }
+    .cafeteria{
+        div{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            img{
+                width: 500px;
+                height: 750px;
+                margin-bottom: 80px;
+                margin-top: 50px;
+            }
+            h3{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                font-size: 40px;
+                a{
+                    color: white;
+                    background-color: rgba(167, 72, 72, 0.925);
+                    text-decoration: none;
+                    font-family: 'Vollkorn', serif;
+                    padding: 10px 5px 10px 5px;
+                    &:hover{
+                        background-color: black;
+                        color: rgba(167, 72, 72, 0.925);
+                }
+            }
+        }
+    }
+    .sugerencias{
+        h2{
+            font-size: 15px;
+            color: white;
+            background-color: hsl(33, 34%, 52%);
+            padding: 10px;
+            text-align: center;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
+        }
+        .sugerencias-div{
+            .card{
+                flex-direction: column;
+                margin: 20px;
+                text-align: center;
+                border: 2px solid black;
+                transition: 0.5s;
+                &:hover{
+                    transform: translateY(10px);
+                    box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+                h3{
+                    margin: 5px 0px 5px 0px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background: rgb(142,141,149);
+                    background: radial-gradient(circle, rgba(142,141,149,1) 36%, rgba(153,153,157,1) 48%, rgba(195,195,204,1) 73%);
+                    padding: 5px 20px 5px 20px;
+                    margin-top: 0px; margin-bottom: 15px;
+                    font-family: 'Vollkorn', serif;
+                    &:hover{
+                        background-color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+
+    .mas-leidos{
+        h2{
+            font-size: 15px;
+            color: white;
+            background-color: hsl(33, 34%, 52%);
+            padding: 10px;
+            text-align: center;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
+        }
+        .mas-leidos-div{
+            @extend %flex;
+            .card{
+                flex-direction: column;
+                margin: 20px;
+                text-align: center;
+                border: 2px solid black;
+                transition: 0.5s;
+                &:hover{
+                    transform: translateY(10px);
+                    box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+                h3{
+                    margin: 5px 0px 5px 0px;
+                    font-size: 25px;
+                    text-align: center;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background: rgb(142,141,149);
+                    background: radial-gradient(circle, rgba(142,141,149,1) 36%, rgba(153,153,157,1) 48%, rgba(195,195,204,1) 73%);
+                    padding: 5px 20px 5px 20px;
+                    margin-top: 0px; margin-bottom: 15px;
+                    font-family: 'Vollkorn', serif;
+                    &:hover{
+                        background-color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+
+    .en-oferta{
+        h2{
+            font-size: 15px;
+            color: white;
+            background-color: hsl(33, 34%, 52%);
+            padding: 10px;
+            text-align: center;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
+        }
+        .en-oferta-div{
+            @extend %flex;
+            .card{
+                flex-direction: column;
+                margin: 20px;
+                text-align: center;
+                border: 2px solid black;
+                transition: 0.5s;
+                &:hover{
+                    transform: translateY(10px);
+                    box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+                h3{
+                    margin: 5px 0px 5px 0px;
+                    font-size: 25px;
+                    text-align: center;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background: rgb(142,141,149);
+                    background: radial-gradient(circle, rgba(142,141,149,1) 36%, rgba(153,153,157,1) 48%, rgba(195,195,204,1) 73%);
+                    padding: 5px 20px 5px 20px;
+                    margin-top: 0px; margin-bottom: 15px;
+                    font-family: 'Vollkorn', serif;
+                    &:hover{
+                        background-color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+
+    .vinilos{
+        h2{
+            font-size: 15px;
+            color: white;
+            background-color: hsl(33, 34%, 52%);
+            padding: 10px;
+            text-align: center;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
+        }
+        .vinilos-div{
+           @extend %flex;
+            .card{
+                flex-direction: column;
+                margin: 20px;
+                text-align: center;
+                border: 2px solid black;
+                transition: 0.5s;
+                &:hover{
+                    transform: translateY(10px);
+                    box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                }
+                img{
+                    width: 100%;
+                    height: 400px;
+                }
+                h3{
+                    margin: 5px 0px 5px 0px;
+                    font-size: 20px;
+                    text-align: center;
+                }
+                a{
+                    text-decoration: none;
+                    color: white;
+                    background: rgb(142,141,149);
+                    background: radial-gradient(circle, rgba(142,141,149,1) 36%, rgba(153,153,157,1) 48%, rgba(195,195,204,1) 73%);
+                    padding: 5px 20px 5px 20px;
+                    margin-top: 0px; margin-bottom: 15px;
+                    font-family: 'Vollkorn', serif;
+                    &:hover{
+                        background-color: rgba(167, 72, 72, 0.925);
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+   
+

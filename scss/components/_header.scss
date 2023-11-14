@@ -1,0 +1,40 @@
+header{
+    position: sticky;
+    top: 0%;
+    background-color: $color-primario;
+    padding: 10px 0px 5px 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    z-index: 1;
+    h1{
+        font-family: 'Vollkorn', serif;
+        font-size: 50px;
+        color: black;
+        display: flex;
+        justify-content: end;
+        margin-left: 10px;
+    }
+    .menu{
+
+        ul{
+            display: flex;
+            li{
+                list-style: none;
+                font-family: 'Vollkorn', serif;
+                justify-content: end;
+                margin: 5px 30px 10px 20px;
+                display: flex;
+                a{
+                    color: $color-secundario;
+                    font-size: 25px;
+                    font-family: 'Vollkorn', serif;
+                    font-weight: 50px;
+                    text-decoration: none; 
+                    padding: 10px; 
+                }
+            }
+        }
+    }
+}

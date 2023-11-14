@@ -1,0 +1,69 @@
+.evento-musical{
+    h2{
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        background-color: rgb(174, 137, 91);
+        text-align: center
+    }
+    h3{
+        font-size: 35px;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .grid-ts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: grid;
+        width: 80%;
+        margin: 20px;
+        grid-template-columns: 300px 300px 230px;
+        grid-auto-rows: 200px 200px 200px;
+        gap: 20px;
+        div{
+            img{
+                width: 270px;
+                height: 180px;
+                object-fit: cover;
+            }
+        }
+    }
+    p{
+        font-size: 25px;
+        padding: 0px 15px 20px 15px;
+        width: 95%;
+        display: flex; 
+        justify-content: center;
+    }
+}
+
+.evento-literario{
+    h2{
+        font-size: 25px;
+        color: white;
+        padding: 10px;
+        background-color: rgb(174, 137, 91);
+        text-align: center
+    }
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        h3{
+            font-size: 35px;
+            text-align: center;
+        }
+        img{
+            width: 700px;
+            height: 500px;
+            margin-top: 20px;
+            margin-bottom: 50px;
+        }
+        p{
+            font-size: 25px;
+            padding: 0px 15px 20px 15px;
+        }
+    }
+}

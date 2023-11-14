@@ -18,7 +18,7 @@ body{
 header{
     position: sticky;
     top: 0%;
-    background-color: rgb(212, 190, 162);
+    background-color: $color-primario;
     padding: 10px 0px 5px 3px;
     display: flex;
     justify-content: space-between;
@@ -41,7 +41,7 @@ header h1{
 }
 
 .menu ul li a{
-    color: rgba(167, 72, 72, 0.925);
+    color: #a74848ec;
     font-size: 25px;
     font-family: 'Vollkorn', serif;
     font-weight: 50px;
@@ -54,7 +54,7 @@ header nav ul li{
     font-family: 'Vollkorn', serif;
     justify-content: end;
     margin: 5px 30px 10px 20px;
-    display: flex
+    display: flex;
 }
 
 /*!---------MAIN INDEX------------*/
@@ -191,7 +191,7 @@ header nav ul li{
     background-color: rgb(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px
+    padding: 10px 5px 10px 5px;
 }
 
 .compra-por-mayor a{
@@ -199,7 +199,7 @@ header nav ul li{
     background-color: rgb(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px
+    padding: 10px 5px 10px 5px;
 }
 
 .venta-de-vinilos a{
@@ -207,7 +207,7 @@ header nav ul li{
     background-color: rgb(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px
+    padding: 10px 5px 10px 5px;
 }
 
 .cafeteria a{
@@ -215,7 +215,7 @@ header nav ul li{
     background-color: rgb(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px
+    padding: 10px 5px 10px 5px;
 }
 
 
@@ -224,7 +224,7 @@ header nav ul li{
     color: white;
     background-color: hsl(33, 34%, 52%);
     padding: 10px;
-    text-align: center
+    text-align: center;
 }
 
 .mas-leidos h2{
@@ -275,7 +275,7 @@ header nav ul li{
     flex-direction: column;
     margin: 20px;
     text-align: center;
-    border: 2px solid black
+    border: 2px solid black;
 }
 
 .sugerencias-div{
@@ -385,7 +385,7 @@ header nav ul li{
     color: white;
     padding: 10px;
     background-color: rgb(174, 137, 91);
-    text-align: center
+    text-align: center;
 }
 
 .titulo div h2{
@@ -450,6 +450,11 @@ header nav ul li{
 
 section form div input{
    margin-left: 10px;
+}
+
+.disponibilidad form div button{
+    display: flex;
+    justify-content: left;
 }
 
 /*---------------MAIN GIFT CARDS---------------*/
@@ -612,15 +617,15 @@ section form div input{
 
 @media screen and (max-width: 1600px){
     .grid-ts img{
-        width: 400px;
-        height: 200px;
+        width: 300px;
+        height: 100px;
     }
     
     .grid-ts{
         width: 60%;
         margin: 10px;
-        grid-template-columns: 400px 400px 400px;
-        grid-auto-rows: 200px 200px 200px;
+        grid-template-columns: 400px 400px ;
+        grid-auto-rows: 200px 200px 200px 200px;
         gap: 10px;
     }
 }
@@ -634,15 +639,15 @@ section form div input{
 
 @media screen and (max-width: 1250px){
     .grid-ts img{
-        width: 300px;
-        height: 100px;
+        width: 200px;
+        height: 50px;
     }
     
     .grid-ts{
         width: 40%;
         margin: 0px;
-        grid-template-columns: 300px 300px 300px;
-        grid-auto-rows: 100px 100px 100px;
+        grid-template-columns: 300px 300px;
+        grid-auto-rows: 100px 100px 100px 100px;
         gap: 5px;
     }
 }
@@ -676,11 +681,6 @@ section form div input{
 
     .nuestra-cafeteria-div p{
         font-size: 10px;
-    }
-
-    .grid-ts img{
-        width: 250px;
-        height: 50px;
     }
     
     .grid-ts{

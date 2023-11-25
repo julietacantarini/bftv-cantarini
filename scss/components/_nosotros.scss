@@ -5,14 +5,26 @@
                 h2{
                     font-size: 25px;
                     color: white;
-                    padding: 10px;
+                    padding: 20px;
                     background-color: rgb(174, 137, 91);
-                    text-align: center
+                    text-align: center;
+                    margin-top: 10px;
                 }
             }
             .col-lg-9{
                 p{
                     font-size: 30px; 
+                }
+            }
+            .col-lg-3{
+                img{
+                    margin: 15px;
+                    &:hover{
+                        transform: translateY(5px);
+                        box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                        -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                        -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    }
                 }
             }
         }

@@ -2,7 +2,7 @@
 /*-----------LISTAS--------*/
 /*-----------EXTENDS--------*/
 @import url("https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400;0,500;0,600;1,400;1,600&display=swap");
-.sugerencias .sugerencias-div, .cafeteria .mas-leidos .mas-leidos-div, .cafeteria .en-oferta .en-oferta-div, .cafeteria .vinilos .vinilos-div {
+.sugerencias .sugerencias-div {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap; }
@@ -42,21 +42,19 @@ header {
     display: flex;
     justify-content: end;
     margin-left: 10px; }
-  header .menu ul {
+  header .navbar-navbar-expand-lg .container-fluid .navbar-brand {
     display: flex; }
-    header .menu ul li {
-      list-style: none;
+  header .navbar-navbar-expand-lg .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item {
+    list-style: none;
+    font-family: 'Vollkorn', serif;
+    justify-content: end;
+    margin: 5px 30px 10px 20px;
+    display: flex; }
+    header .navbar-navbar-expand-lg .container-fluid .collapse-navbar-collapse .navbar-nav .nav-item .nav-link {
       font-family: 'Vollkorn', serif;
-      justify-content: end;
-      margin: 5px 30px 10px 20px;
-      display: flex; }
-      header .menu ul li a {
-        color: rgba(167, 72, 72, 0.925);
-        font-size: 25px;
-        font-family: 'Vollkorn', serif;
-        font-weight: 50px;
-        text-decoration: none;
-        padding: 10px; }
+      font-weight: 50px;
+      text-decoration: none;
+      padding: 10px; }
 
 /*!----------------INDEX----------------*/
 .presentacion {
@@ -71,11 +69,6 @@ header {
     text-align: center;
     background-color: #b38a73;
     width: 100vw; }
-    .presentacion h3:hover {
-      transform: translateY(10px);
-      box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-      -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-      -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
   .presentacion img {
     width: 20%; }
 
@@ -102,10 +95,11 @@ header {
     font-size: 40px; }
     .hero div h3 a {
       color: white;
-      background-color: nth colores, 3;
+      background-color: rgba(167, 72, 72, 0.925);
       text-decoration: none;
       font-family: 'Vollkorn', serif;
-      padding: 10px 5px 10px 5px; }
+      padding: 10px;
+      margin-top: 30px; }
       .hero div h3 a:hover {
         background-color: nth colores, 2;
         color: rgba(167, 72, 72, 0.925); }
@@ -129,7 +123,8 @@ header {
       background-color: rgba(167, 72, 72, 0.925);
       text-decoration: none;
       font-family: 'Vollkorn', serif;
-      padding: 10px 5px 10px 5px; }
+      padding: 10px;
+      margin-top: 30px; }
       .compra-por-mayor div h3 a:hover {
         background-color: black;
         color: rgba(167, 72, 72, 0.925); }
@@ -155,7 +150,8 @@ header {
     background-color: rgba(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px; }
+    padding: 10px;
+    margin-top: 30px; }
     .venta-de-vinilos h3 a:hover {
       background-color: black;
       color: rgba(167, 72, 72, 0.925); }
@@ -179,42 +175,44 @@ header {
       background-color: rgba(167, 72, 72, 0.925);
       text-decoration: none;
       font-family: 'Vollkorn', serif;
-      padding: 10px 5px 10px 5px; }
+      padding: 10px;
+      margin-top: 30px; }
       .cafeteria div h3 a:hover {
         background-color: black;
         color: rgba(167, 72, 72, 0.925); }
 
-.cafeteria .sugerencias h2 {
+.sugerencias h2 {
   font-size: 15px;
   color: white;
   background-color: #ae895b;
   padding: 10px;
   text-align: center; }
-  .cafeteria .sugerencias h2:hover {
+  .sugerencias h2:hover {
     transform: translateY(10px);
     box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
     -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
     -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
 
-.cafeteria .sugerencias .sugerencias-div .card {
+.sugerencias .sugerencias-div .card {
+  display: flex;
   flex-direction: column;
+  justify-content: center;
   margin: 20px;
   text-align: center;
-  border: 2px solid black;
   transition: 0.5s; }
-  .cafeteria .sugerencias .sugerencias-div .card:hover {
+  .sugerencias .sugerencias-div .card:hover {
     transform: translateY(10px);
     box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
     -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
     -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-  .cafeteria .sugerencias .sugerencias-div .card img {
+  .sugerencias .sugerencias-div .card img {
     width: 100%;
     height: 400px; }
-  .cafeteria .sugerencias .sugerencias-div .card h3 {
+  .sugerencias .sugerencias-div .card h3 {
     margin: 5px 0px 5px 0px;
     font-size: 20px;
     text-align: center; }
-  .cafeteria .sugerencias .sugerencias-div .card a {
+  .sugerencias .sugerencias-div .card a {
     text-decoration: none;
     color: white;
     background: #8e8d95;
@@ -223,133 +221,7 @@ header {
     margin-top: 0px;
     margin-bottom: 15px;
     font-family: 'Vollkorn', serif; }
-    .cafeteria .sugerencias .sugerencias-div .card a:hover {
-      background-color: rgba(167, 72, 72, 0.925); }
-
-.cafeteria .mas-leidos h2 {
-  font-size: 15px;
-  color: white;
-  background-color: #ae895b;
-  padding: 10px;
-  text-align: center; }
-  .cafeteria .mas-leidos h2:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-
-.cafeteria .mas-leidos .mas-leidos-div .card {
-  flex-direction: column;
-  margin: 20px;
-  text-align: center;
-  border: 2px solid black;
-  transition: 0.5s; }
-  .cafeteria .mas-leidos .mas-leidos-div .card:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-  .cafeteria .mas-leidos .mas-leidos-div .card img {
-    width: 100%;
-    height: 400px; }
-  .cafeteria .mas-leidos .mas-leidos-div .card h3 {
-    margin: 5px 0px 5px 0px;
-    font-size: 25px;
-    text-align: center; }
-  .cafeteria .mas-leidos .mas-leidos-div .card a {
-    text-decoration: none;
-    color: white;
-    background: #8e8d95;
-    background: radial-gradient(circle, #8e8d95 36%, #99999d 48%, #c3c3cc 73%);
-    padding: 5px 20px 5px 20px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    font-family: 'Vollkorn', serif; }
-    .cafeteria .mas-leidos .mas-leidos-div .card a:hover {
-      background-color: rgba(167, 72, 72, 0.925); }
-
-.cafeteria .en-oferta h2 {
-  font-size: 15px;
-  color: white;
-  background-color: #ae895b;
-  padding: 10px;
-  text-align: center; }
-  .cafeteria .en-oferta h2:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-
-.cafeteria .en-oferta .en-oferta-div .card {
-  flex-direction: column;
-  margin: 20px;
-  text-align: center;
-  border: 2px solid black;
-  transition: 0.5s; }
-  .cafeteria .en-oferta .en-oferta-div .card:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-  .cafeteria .en-oferta .en-oferta-div .card img {
-    width: 100%;
-    height: 400px; }
-  .cafeteria .en-oferta .en-oferta-div .card h3 {
-    margin: 5px 0px 5px 0px;
-    font-size: 25px;
-    text-align: center; }
-  .cafeteria .en-oferta .en-oferta-div .card a {
-    text-decoration: none;
-    color: white;
-    background: #8e8d95;
-    background: radial-gradient(circle, #8e8d95 36%, #99999d 48%, #c3c3cc 73%);
-    padding: 5px 20px 5px 20px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    font-family: 'Vollkorn', serif; }
-    .cafeteria .en-oferta .en-oferta-div .card a:hover {
-      background-color: rgba(167, 72, 72, 0.925); }
-
-.cafeteria .vinilos h2 {
-  font-size: 15px;
-  color: white;
-  background-color: #ae895b;
-  padding: 10px;
-  text-align: center; }
-  .cafeteria .vinilos h2:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-
-.cafeteria .vinilos .vinilos-div .card {
-  flex-direction: column;
-  margin: 20px;
-  text-align: center;
-  border: 2px solid black;
-  transition: 0.5s; }
-  .cafeteria .vinilos .vinilos-div .card:hover {
-    transform: translateY(10px);
-    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
-    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
-  .cafeteria .vinilos .vinilos-div .card img {
-    width: 100%;
-    height: 400px; }
-  .cafeteria .vinilos .vinilos-div .card h3 {
-    margin: 5px 0px 5px 0px;
-    font-size: 20px;
-    text-align: center; }
-  .cafeteria .vinilos .vinilos-div .card a {
-    text-decoration: none;
-    color: white;
-    background: #8e8d95;
-    background: radial-gradient(circle, #8e8d95 36%, #99999d 48%, #c3c3cc 73%);
-    padding: 5px 20px 5px 20px;
-    margin-top: 0px;
-    margin-bottom: 15px;
-    font-family: 'Vollkorn', serif; }
-    .cafeteria .vinilos .vinilos-div .card a:hover {
+    .sugerencias .sugerencias-div .card a:hover {
       background-color: rgba(167, 72, 72, 0.925); }
 
 main .titulo p {
@@ -362,7 +234,7 @@ main .titulo p {
 main .titulo div h2 {
   color: black;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-top: 50px;
   padding-left: 100px;
   font-size: 50px; }
@@ -370,18 +242,21 @@ main .titulo div h2 {
 main .titulo div h3 {
   color: black;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-top: 2px;
   padding-left: 100px;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 30px; }
 
 main .formulario form div {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: normal;
   padding-left: 50px;
   margin-top: 20px;
   padding-bottom: 20px; }
+  main .formulario form div input {
+    margin-left: 10px; }
 
 main .disponibilidad p {
   font-size: 20px;
@@ -393,7 +268,7 @@ main .disponibilidad p {
 main .disponibilidad div h2 {
   color: black;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-top: 50px;
   padding-left: 100px;
   font-size: 50px; }
@@ -401,14 +276,15 @@ main .disponibilidad div h2 {
 main .disponibilidad div h3 {
   color: black;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding-top: 2px;
   padding-left: 100px;
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 30px; }
 
 main .disponibilidad form div {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   align-items: normal;
   padding-left: 50px;
   margin-top: 20px;
@@ -448,12 +324,18 @@ main .disponibilidad form div {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 2px solid black; }
+    .gift-cards div img:hover {
+      transform: translateY(5px);
+      box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
   .gift-cards div a {
     color: white;
     background-color: rgba(167, 72, 72, 0.925);
     text-decoration: none;
     font-family: 'Vollkorn', serif;
-    padding: 10px 5px 10px 5px; }
+    padding: 10px 5px 10px 5px;
+    margin-bottom: 15px; }
     .gift-cards div a:hover {
       background-color: black;
       color: rgba(167, 72, 72, 0.925); }
@@ -461,12 +343,21 @@ main .disponibilidad form div {
 .nosotros .container-fluid .row .col-lg-12 h2 {
   font-size: 25px;
   color: white;
-  padding: 10px;
+  padding: 20px;
   background-color: #ae895b;
-  text-align: center; }
+  text-align: center;
+  margin-top: 10px; }
 
 .nosotros .container-fluid .row .col-lg-9 p {
   font-size: 30px; }
+
+.nosotros .container-fluid .row .col-lg-3 img {
+  margin: 15px; }
+  .nosotros .container-fluid .row .col-lg-3 img:hover {
+    transform: translateY(5px);
+    box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+    -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+    -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
 
 .evento-musical h2 {
   font-size: 25px;
@@ -494,6 +385,11 @@ main .disponibilidad form div {
     width: 270px;
     height: 180px;
     object-fit: cover; }
+    .evento-musical .grid-ts div img:hover {
+      transform: translateY(10px);
+      box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
 
 .evento-musical p {
   font-size: 25px;
@@ -522,6 +418,11 @@ main .disponibilidad form div {
     height: 500px;
     margin-top: 20px;
     margin-bottom: 50px; }
+    .evento-literario div img:hover {
+      transform: translateY(10px);
+      box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
   .evento-literario div p {
     font-size: 25px;
     padding: 0px 15px 20px 15px; }
@@ -533,7 +434,12 @@ footer .redes-sociales {
   footer .redes-sociales a img {
     width: 50px;
     height: 50px;
-    padding: 45px; }
+    margin: 40px; }
+    footer .redes-sociales a img:hover {
+      transform: translateY(10px);
+      box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -webkit-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75);
+      -moz-box-shadow: 1px 5px 20px 2px rgba(107, 99, 99, 0.75); }
 
 footer .newsletter {
   background-color: #d4bea2;
@@ -650,18 +556,6 @@ footer .newsletter {
   main .sugerencias .sugerencias-div .card {
     flex-direction: column;
     display: flex;
-    justify-content: center; }
-  main .mas-leidos .mas-leidos-div .card {
-    flex-direction: column;
-    display: flex;
-    justify-content: center; }
-  main .en-oferta .en-oferta-div .card {
-    flex-direction: column;
-    display: flex;
-    justify-content: center; }
-  main .vinilos .vinilos-div .card {
-    flex-direction: column;
-    display: flex;
     justify-content: center; } }
 
 @media screen and (max-width: 700px) {
@@ -671,12 +565,6 @@ footer .newsletter {
   .container-fluid .row .col-lg-9 p {
     font-size: 10px;
     padding-left: 10px; } }
-
-@media screen and (max-width: 700px) {
-  .giftcards div img {
-    width: 350px;
-    height: 50px;
-    margin: 10px; } }
 
 @media screen and (max-width: 550px) {
   header h1 {
@@ -692,22 +580,7 @@ footer .newsletter {
     font-size: 15px; }
   .sugerencias .sugerencias-div .card img {
     width: 200px;
-    height: 350px; }
-  .mas-leidos h2 {
-    font-size: 15px; }
-  .mas-leidos .mas-leidos-div .card img {
-    width: 200px;
-    height: 350px; }
-  .en-oferta h2 {
-    font-size: 15px; }
-  .en-oferta .en-oferta-div .card img {
-    width: 250px;
-    height: 300px; }
-  .vinilos h2 {
-    font-size: 15px; }
-  .vinilos .vinilos-div .card img {
-    width: 250px;
-    height: 300px; } }
+    height: 350px; } }
 
 @media screen and (max-width: 550px) {
   .container-fluid .row .col-lg-3 img {
@@ -720,7 +593,7 @@ footer .newsletter {
     font-size: 15px; } }
 
 @media screen and (max-width: 550px) {
-  .giftcards div img {
+  .gift-cards div img {
     width: 300px;
     height: 100px; } }
 
@@ -729,26 +602,51 @@ footer .newsletter {
     width: 400px;
     height: 200px; } }
 
+@media screen and (max-width: 600px) {
+  .sugerencias .sugerencias-div .card h3 {
+    font-size: 15px; }
+  .sugerencias .sugerencias-div .card a {
+    font-size: 15px; } }
+
 @media screen and (max-width: 400px) {
-  .hero div img {
-    width: 200px;
-    height: 300px; }
-  .compra-por-mayor div img {
-    width: 200px;
-    height: 300px; }
-  .venta-de-vinilos div img {
-    width: 200px;
-    height: 300px; }
-  .cafeteria div img {
-    width: 200px;
-    height: 300px; } }
+  .hero div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .hero div img {
+      width: 100px;
+      height: 200px; }
+    .hero div h3 {
+      text-align: center; }
+  .compra-por-mayor div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .compra-por-mayor div img {
+      width: 100px;
+      height: 200px; }
+    .compra-por-mayor div h3 {
+      text-align: center; }
+  .venta-de-vinilos div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .venta-de-vinilos div img {
+      width: 100px;
+      height: 200px; }
+    .venta-de-vinilos div h3 {
+      text-align: center; }
+  .cafeteria div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    .cafeteria div img {
+      width: 100px;
+      height: 200px; }
+    .cafeteria div h3 {
+      text-align: center; } }
 
 @media screen and (max-width: 400px) {
   .evento-literario div img {
     width: 300px;
-    height: 100px; } }
-
-@media screen and (max-width: 400px) {
-  .giftcards div img {
-    width: 250px;
-    height: 50px; } }
+    height: 200px; } }

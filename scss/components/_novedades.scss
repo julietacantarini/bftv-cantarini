@@ -26,6 +26,12 @@
                 width: 270px;
                 height: 180px;
                 object-fit: cover;
+                &:hover{
+                    transform: translateY(10px);
+                    box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                    -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                }
             }
         }
     }
@@ -60,6 +66,12 @@
             height: 500px;
             margin-top: 20px;
             margin-bottom: 50px;
+            &:hover{
+                transform: translateY(10px);
+                box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -webkit-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+                -moz-box-shadow: 1px 5px 20px 2px rgba(107,99,99,0.75);
+            }
         }
         p{
             font-size: 25px;

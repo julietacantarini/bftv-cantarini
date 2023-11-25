@@ -16,23 +16,26 @@ header{
         justify-content: end;
         margin-left: 10px;
     }
-    .menu{
-
-        ul{
-            display: flex;
-            li{
-                list-style: none;
-                font-family: 'Vollkorn', serif;
-                justify-content: end;
-                margin: 5px 30px 10px 20px;
+    .navbar-navbar-expand-lg{
+        .container-fluid{
+            .navbar-brand{
                 display: flex;
-                a{
-                    color: $color-secundario;
-                    font-size: 25px;
-                    font-family: 'Vollkorn', serif;
-                    font-weight: 50px;
-                    text-decoration: none; 
-                    padding: 10px; 
+            }
+            .collapse-navbar-collapse{
+                .navbar-nav{
+                    .nav-item{
+                        list-style: none;
+                        font-family: 'Vollkorn', serif;
+                        justify-content: end;
+                        margin: 5px 30px 10px 20px;
+                        display: flex;
+                        .nav-link{
+                            font-family: 'Vollkorn', serif;
+                            font-weight: 50px;
+                            text-decoration: none; 
+                            padding: 10px; 
+                        }
+                    }
                 }
             }
         }
